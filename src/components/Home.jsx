@@ -1,6 +1,5 @@
 
 
-
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -13,7 +12,7 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 relative"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 pt-20 md:flex-row">
-        <div className="flex flex-col justify-center h-full w-full md:w-1/2 pr-4 pl-16"> {/* Add left padding */}
+        <div className="flex flex-col justify-center h-full w-full md:w-1/2 pr-4 pl-16">
           <h2 className="text-xl sm:text-2xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
@@ -25,7 +24,7 @@ const Home = () => {
 
           <div>
             <Link
-              to="portfolio"
+              to="portfolio" // Make sure this matches the id of the Portfolio section
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
@@ -51,3 +50,4 @@ const Home = () => {
 };
 
 export default Home;
+

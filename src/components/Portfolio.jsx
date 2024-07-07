@@ -25,7 +25,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-     src: CofeeShop,
+     src: cofeeShop,
       href:"https://cofeeclient.netlify.app/",
       href1:"https://github.com/Renjith2/CoffeeClient",
     },
